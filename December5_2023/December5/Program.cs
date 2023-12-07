@@ -1,6 +1,6 @@
 ﻿// See https://aka.ms/new-console-template for more information
 
-var filename = "~/input.txt";
+var filename = "../../../input.txt";
 var reader = new StreamReader(filename);
 
 var seeds = new List<Tuple<long, long>>();
